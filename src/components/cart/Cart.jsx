@@ -145,7 +145,7 @@ function Cart({ cartItemCount, setCartItemCount }) {
                         -
                       </button>
                       <input
-                        className="bg-paleSilver py-2 w-4 text-center focus:outline-none text-subtitle"
+                        className="bg-paleSilver py-2 w-8 text-center focus:outline-none text-subtitle"
                         type="number"
                         min="1"
                         value={item.quantity}

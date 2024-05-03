@@ -83,7 +83,7 @@ function Nav({ cartItemCount, setCartItemCount }) {
               />
             </button>
             {cartItemCount > 0 && (
-              <div className="items-cart absolute bg-red-600 top-0 right-0 translate-y-1/2 translate-x-1/2 rounded-full py-0 px-1">
+              <div className="items-cart absolute bg-[#d87d4a] top-0 right-0 translate-y-1/2 translate-x-1/2 rounded-full py-0 px-1">
                 {cartItemCount}
               </div>
             )}

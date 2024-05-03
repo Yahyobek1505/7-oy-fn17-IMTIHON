@@ -41,6 +41,7 @@ const AddToCart = ({
         quantity,
         cartImage: product.image.cart,
       })
+      
     );
 
     const existingCartItems =
@@ -66,6 +67,7 @@ const AddToCart = ({
     setCartItemCount(
       existingCartItems.reduce((acc, item) => acc + item.quantity, 0)
     );
+    alert("item added to cart!")
   };
 
   const handleIncrement = () => {

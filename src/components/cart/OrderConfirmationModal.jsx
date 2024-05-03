@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
 const OrderConfirmationModal = ({ cartItems }) => {
@@ -66,7 +66,7 @@ const OrderConfirmationModal = ({ cartItems }) => {
           whileHover={{ scale: 1 }}
           whileTap={{ scale: 0.9 }}
           transition={{ duration: 0.3 }}>
-          <Link to='/'>Back To Home</Link>
+          <NavLink to='/'>Back To Home</NavLink>
         </motion.button>
       </div>
     </div>

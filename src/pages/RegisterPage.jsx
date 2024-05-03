@@ -97,7 +97,7 @@ function RegisterPage() {
 
           <button
             type="submit"
-            className="rounded-lg py-4 px-24 text-sm text-white bg-[#d87d4a] hover:text-[#e09b73] mb-6 w-full"
+            className="rounded-lg py-4 px-24 text-sm text-white bg-[#d87d4a] hover:bg-[#e09b73] mb-6 w-full"
           >
             Sign Up
           </button>
@@ -105,12 +105,12 @@ function RegisterPage() {
 
         <p className="text-center flex gap-2 justify-center text-white text-[15px]">
           Already have an account?{" "}
-          <span
+          <p
             className="text-[#d87d4a] hover:text-[#d87d4a] duration-300 cursor-pointer"
             onClick={() => navigate("/login")}
           >
             Login
-          </span>
+          </p>
         </p>
       </div>
     </div>
