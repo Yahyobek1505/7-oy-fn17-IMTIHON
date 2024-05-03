@@ -13,7 +13,7 @@ const Backdrop = ({ onClick }) => (
     animate={{ opacity: 0.4 }}
     exit={{ opacity: 0 }}
   />
-);
+); 
 
 const Checkout = () => {
   const navigate = useNavigate();
