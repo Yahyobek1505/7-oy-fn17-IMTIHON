@@ -3,6 +3,7 @@ import ProductTitleHeader from "../components/ProductTitleHeader";
 import ProductPreviewCard from "../components/ProductPreviewCard";
 import productData from "../data/products.json";
 import ProductCategory from "../components/ProductCateogry";
+import BestAudio from "../components/BestAudio";
 
 function Earphones() {
   const earphones = productData.filter(
@@ -29,6 +30,7 @@ function Earphones() {
           ))}
       </div>
       <ProductCategory />
+     <BestAudio></BestAudio>
     </div>
   );
 }

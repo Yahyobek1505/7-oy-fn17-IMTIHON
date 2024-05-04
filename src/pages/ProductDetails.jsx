@@ -5,6 +5,7 @@ import products from "../data/products.json";
 import RecommendProducts from "../components/RecommendProducts";
 import ProductCategory from "../components/ProductCateogry";
 import { useState } from "react";
+import BestAudio from "../components/BestAudio";
 
 const ProductDetails = ({ setCartItemCount }) => {
   const { slug } = useParams();
@@ -144,6 +145,7 @@ const ProductDetails = ({ setCartItemCount }) => {
       </div>
       <RecommendProducts></RecommendProducts>
       <ProductCategory></ProductCategory>
+      <BestAudio></BestAudio>
     </div>
   );
 };
