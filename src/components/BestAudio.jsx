@@ -1,4 +1,4 @@
-import John  from '../../public/assets/product-xx99-mark-two-headphones/desktop/BestAudio.svg'
+import John  from '../../public/assets/product-xx99-mark-two-headphones/desktop/BestAudio.jpg'
 
 const BestAudio = () => {
   return (
